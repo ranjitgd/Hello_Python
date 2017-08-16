@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-import socketTCP_IP = '9.199.233.89' #127.0.0.1
-'TCP_PORT = 5005
+import socket
+TCP_IP = '9.199.233.89' #127.0.0.1'
+TCP_PORT = 5005
 BUFFER_SIZE = 1024
 MESSAGE = "Hello, World!"
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
